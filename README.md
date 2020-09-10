@@ -3,13 +3,13 @@ Google Cloud Practice
 
 # Qwiklabs Screenshots 
 
-Course: Google Cloud Platform Fundamentals - Core Infrastructure
+## Course: Google Cloud Platform Fundamentals - Core Infrastructure
 
-Module: Getting Started with Google Cloud Platform
+### Module: Getting Started with Google Cloud Platform
 
 
-### Getting Started with Cloud Marketplace:
-[here](https://drive.google.com/file/d/1Nu6DkJpf1dOVXooBqg6l6tqO2kqX9WVb/view?usp=sharing){:target="_blank"}.
+#### Getting Started with Cloud Marketplace:
+[here](https://drive.google.com/file/d/1Nu6DkJpf1dOVXooBqg6l6tqO2kqX9WVb/view?usp=sharing).
 
 
 
@@ -87,7 +87,7 @@ Module: Cloud IAM
 
 
 
-Translation
+# Translation
 
 ### Cloud IAM:
 1. gsutil ls gs://username1-bucketxx
