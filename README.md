@@ -13,6 +13,7 @@ Module: Getting Started with Google Cloud Platform
 done
 
 %md <a href="https://google.com" target="_blank">google link</a>
+<a href="http://example.com/" target="_blank">Hello, world!</a>
 <br/>
 
 ### Getting Started with Compute Engine:
