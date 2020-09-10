@@ -3,87 +3,57 @@ Google Cloud Practice
 
 # Qwiklabs Screenshots 
 
+
+**NB:** I have worked on 10 labs and each lab mentioned below links you to each of the screenshots required  saved in the google drive
+
 ## Course: Google Cloud Platform Fundamentals - Core Infrastructure
 
 ### Module: Getting Started with Google Cloud Platform
 
+*   **[Getting Started with Cloud Marketplace](https://drive.google.com/file/d/1Nu6DkJpf1dOVXooBqg6l6tqO2kqX9WVb/view?usp=sharing).**
 
-#### Getting Started with Cloud Marketplace:
-[here](https://drive.google.com/file/d/1Nu6DkJpf1dOVXooBqg6l6tqO2kqX9WVb/view?usp=sharing).
-
-
+*   **[Getting Started with Compute Engine](https://drive.google.com/file/d/1A-kZxwri6iE0r_3VT2PiUMlnDLsZHMJx/view?usp=sharing).**
 
 
-<br/>
+### Module: Containers in the Cloud
 
-### Getting Started with Compute Engine:
-[here](https://drive.google.com/file/d/1A-kZxwri6iE0r_3VT2PiUMlnDLsZHMJx/view?usp=sharing).
-
-<br/>
-
-
-Module: Containers in the Cloud
-### Getting Started with Kubernetes Engine:
-[here](https://drive.google.com/file/d/172YqsTtb7Cnw_FWr_LuMabHSIWQsura8/view?usp=sharing).
-
-<br/>
+*   **[Getting Started with Kubernetes Engine:](https://drive.google.com/file/d/172YqsTtb7Cnw_FWr_LuMabHSIWQsura8/view?usp=sharing).**
 
 
 
-Module:Applications in the Cloud
+### Module: Applications in the Cloud
 
-### Getting Started with App Engine :
-[here](https://drive.google.com/file/d/1kjy9ZLs-0hymCjwP5J0Gp02-vCGIyDzE/view?usp=sharing).
-
-<br/>
+*   **[Getting Started with App Engine:](https://drive.google.com/file/d/1kjy9ZLs-0hymCjwP5J0Gp02-vCGIyDzE/view?usp=sharing).**
 
 
-Course: Essential Google Cloud Infrastructure: Foundation
 
-Module: Introduction to Google Cloud
+## Course: Essential Google Cloud Infrastructure: Foundation
 
+### Module: Introduction to Google Cloud
 
-### Console and Cloud Shell:
-[here](https://drive.google.com/file/d/1g7MSq2WuoFQG9m9PfTHHrqpptRYAA5_W/view?usp=sharing).
+*   **[Console and Cloud Shell:](https://drive.google.com/file/d/1g7MSq2WuoFQG9m9PfTHHrqpptRYAA5_W/view?usp=sharing).**
 
-<br/>
+*   **[Infrastructure Preview:](https://drive.google.com/file/d/1xLRIYIdhjSSuDJpXs6G1I3cPkr2ql7FF/view?usp=sharing).**
 
+### Module: Virtual Networks
 
-### Infrastructure Preview:
-[here](https://drive.google.com/file/d/1xLRIYIdhjSSuDJpXs6G1I3cPkr2ql7FF/view?usp=sharing).
-
-<br/>
+*   **[Implement Private Google Access and Cloud NAT:](https://drive.google.com/file/d/1mpAmCXgFhJiMqmCtj51OchNkNJ8gaT2M/view?usp=sharing).**
 
 
-### Implement Private Google Access and Cloud NAT:
-[here](https://drive.google.com/file/d/1mpAmCXgFhJiMqmCtj51OchNkNJ8gaT2M/view?usp=sharing).
+### Module: Virtual Machines
 
-<br/>
+*   **[Creating Virtual Machines:](https://drive.google.com/file/d/1kVeEZO_dYsThH0OF2tmh0odE1A998wS_/view?usp=sharing).**
 
-
-### Creating Virtual Machines:
-[here](https://drive.google.com/file/d/1kVeEZO_dYsThH0OF2tmh0odE1A998wS_/view?usp=sharing).
-
-<br/>
+*   **[Working with Virtual Machines:](https://drive.google.com/file/d/1H-Tq07IbDMjJK6nQHWo4KFC44HOTUZfY/view?usp=sharing).**
 
 
-### Working with Virtual Machines:
-[here](https://drive.google.com/file/d/1H-Tq07IbDMjJK6nQHWo4KFC44HOTUZfY/view?usp=sharing).
-
-<br/>
 
 
-Course: Essential Google Cloud Infrastructure: Core Services
+## Course: Essential Google Cloud Infrastructure: Core Services
 
-Module: Cloud IAM
+### Module: Cloud IAM
 
-
-### Cloud IAM:
-[here](https://drive.google.com/file/d/1eDPXmhWaco0duQ33ZzIrus6GLWZmBxOA/view?usp=sharing).
-
-<br/>
-
-
+*   **[Cloud IAM:](https://drive.google.com/file/d/1eDPXmhWaco0duQ33ZzIrus6GLWZmBxOA/view?usp=sharing).**
 
 
 
@@ -154,16 +124,6 @@ sudo apt-get update
 
 
 
-
-
-
-*   **If using a phone,**
-
-
-
-*  **If using an emulator,**
-
-* **Optional: Install Watchman** <br/>
 
 
 
