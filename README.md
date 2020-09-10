@@ -11,6 +11,8 @@ Module: Getting Started with Google Cloud Platform
 ### Getting Started with Cloud Marketplace:
 [here](https://drive.google.com/file/d/1Nu6DkJpf1dOVXooBqg6l6tqO2kqX9WVb/view?usp=sharing){:target="_blank"}.
 done
+
+%md <a href="https://google.com" target="_blank">google link</a>
 <br/>
 
 ### Getting Started with Compute Engine:
