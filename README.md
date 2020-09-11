@@ -115,34 +115,34 @@ Google Cloud Practice
 *   **Verify access to public IP addresses of Google APIs and services and other connections to the internet.**
 
 **Steps**
-1. SSH to vm-internal to test the IAP tunnel
+1. SSH to vm-internal to test the IAP tunnel <br/>
     gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
 
-2. To test the external connectivity of vm-internal, run the following command:
+2. To test the external connectivity of vm-internal, run the following command: <br/>
     ping -c 2 www.google.com
 
-3. To return to your Cloud Shell instance, run the following command:
+3. To return to your Cloud Shell instance, run the following command: <br/> 
     exit
 
-4. Copy an image from a public Cloud Storage bucket to your own bucket.
+4. Copy an image from a public Cloud Storage bucket to your own bucket. <br/>
 
     gsutil cp gs://cloud-training/gcpnet/private/access.svg gs://timbucketxx11
 
 5. Access the image from your VM instance
-    gsutil cp gs://timbucketxx11/*.svg .
-    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
-    gsutil cp gs://timbucketxx11/*.svg .
-    gsutil cp gs://timbucketxx11/*.svg .
+    gsutil cp gs://timbucketxx11/*.svg . <br/>
+    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap <br/>
+    gsutil cp gs://timbucketxx11/*.svg . <br/>
+    gsutil cp gs://timbucketxx11/*.svg . <br/>
 
-6. Try to update the VM instances
-    sudo apt-get update
-    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
-    sudo apt-get update
-
-7. Verify the Cloud NAT gateway
+6. Try to update the VM instances <br/>
+    sudo apt-get update <br/>
+    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap <br/>
     sudo apt-get update
 
-8. Configure and view logs with Cloud NAT Logging (Generating logs)
-    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
+7. Verify the Cloud NAT gateway <br/>
+    sudo apt-get update
+
+8. Configure and view logs with Cloud NAT Logging (Generating logs) <br/>
+    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap <br/>
     sudo apt-get update
 
