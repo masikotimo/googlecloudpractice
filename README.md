@@ -5,7 +5,7 @@ Google Cloud Practice
 
 
 **NB:** I have worked on 10 labs and each lab mentioned below links you to each of the screenshots required  saved in the google drive. 
- Together with 2 Translation tasks
+ Together with 3 Translation tasks
 
 ## Course: Google Cloud Platform Fundamentals - Core Infrastructure
 
@@ -61,6 +61,14 @@ Google Cloud Practice
 # Translation
 
 ### Cloud IAM:
+
+**Objectives**
+
+*   **Use Cloud IAM to implement access control**
+*   **Restrict access to specific features or resources**
+*   **Use the Service Account User role**
+
+**Steps**
 1. gsutil ls gs://username1-bucketxx
 2. For demoiam, SSH  connection.
 3. gcloud compute instances list
@@ -70,7 +78,16 @@ Google Cloud Practice
 
 
 
-Console and Cloud Shell
+### Console and Cloud Shell
+
+**Objectives**
+
+*   **Get access to Google Cloud.**
+*   **Create a Cloud Storage bucket using the Cloud Console.**
+*   **Create a Cloud Storage bucket using Cloud Shell.**
+*   **Become familiar with Cloud Shell features.**
+
+**Steps**
 1.  gsutil mb gs://timbucketxx2
 2.  gsutil cp sample.txt gs://timbucketxx2
 3.  gcloud compute regions list
@@ -87,47 +104,45 @@ Console and Cloud Shell
 
 
 
-Implement Private Google Access and Cloud NAT
+### Implement Private Google Access and Cloud NAT
 
-SSH to vm-internal to test the IAP tunnel
- gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
+**Objectives**
 
-To test the external connectivity of vm-internal, run the following command:
- ping -c 2 www.google.com
+*   **Configure a VM instance that doesn't have an external IP address.**
+*   **Connect to a VM instance using an Identity-Aware Proxy (IAP) tunnel.**
+*   **Enable Private Google Access on a subnet.**
+*   **Configure a Cloud NAT gateway.**
+*   **Verify access to public IP addresses of Google APIs and services and other connections to the internet.**
 
-To return to your Cloud Shell instance, run the following command:
-exit
+**Steps**
+1. SSH to vm-internal to test the IAP tunnel
+    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
 
-Copy an image from a public Cloud Storage bucket to your own bucket.
+2. To test the external connectivity of vm-internal, run the following command:
+    ping -c 2 www.google.com
 
-gsutil cp gs://cloud-training/gcpnet/private/access.svg gs://timbucketxx11
+3. To return to your Cloud Shell instance, run the following command:
+    exit
 
-Access the image from your VM instance
-gsutil cp gs://timbucketxx11/*.svg .
-gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
+4. Copy an image from a public Cloud Storage bucket to your own bucket.
 
-gsutil cp gs://timbucketxx11/*.svg .
-gsutil cp gs://[my_bucket]/*.svg .
+    gsutil cp gs://cloud-training/gcpnet/private/access.svg gs://timbucketxx11
 
-Try to update the VM instances
-sudo apt-get update
-gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
+5. Access the image from your VM instance
+    gsutil cp gs://timbucketxx11/*.svg .
+    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
+    gsutil cp gs://timbucketxx11/*.svg .
+    gsutil cp gs://timbucketxx11/*.svg .
 
-sudo apt-get update
+6. Try to update the VM instances
+    sudo apt-get update
+    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
+    sudo apt-get update
 
-Verify the Cloud NAT gateway
-sudo apt-get update
+7. Verify the Cloud NAT gateway
+    sudo apt-get update
 
-Configure and view logs with Cloud NAT Logging
-Generating logs
-gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
-sudo apt-get update
-
-
-
-
-
-
-
-**NB:** WORK  **YES** check what 
+8. Configure and view logs with Cloud NAT Logging (Generating logs)
+    gcloud compute ssh vm-internal --zone us-central1-c --tunnel-through-iap
+    sudo apt-get update
 
