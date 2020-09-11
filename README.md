@@ -11,8 +11,6 @@ Google Cloud Practice
 
 ### Module: Getting Started with Google Cloud Platform
 
-
-[Google](https://google.com" target="_blank)
 *   **[Getting Started with Cloud Marketplace](https://drive.google.com/file/d/1Nu6DkJpf1dOVXooBqg6l6tqO2kqX9WVb/view?usp=sharing).**
 
 *   **[Getting Started with Compute Engine](https://drive.google.com/file/d/1A-kZxwri6iE0r_3VT2PiUMlnDLsZHMJx/view?usp=sharing).**
