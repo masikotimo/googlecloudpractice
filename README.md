@@ -4,12 +4,15 @@ Google Cloud Practice
 # Qwiklabs Screenshots 
 
 
-**NB:** I have worked on 10 labs and each lab mentioned below links you to each of the screenshots required  saved in the google drive
+**NB:** I have worked on 10 labs and each lab mentioned below links you to each of the screenshots required  saved in the google drive. 
+ Together with 2 Translation tasks
 
 ## Course: Google Cloud Platform Fundamentals - Core Infrastructure
 
 ### Module: Getting Started with Google Cloud Platform
 
+
+[Google](https://google.com" target="_blank)
 *   **[Getting Started with Cloud Marketplace](https://drive.google.com/file/d/1Nu6DkJpf1dOVXooBqg6l6tqO2kqX9WVb/view?usp=sharing).**
 
 *   **[Getting Started with Compute Engine](https://drive.google.com/file/d/1A-kZxwri6iE0r_3VT2PiUMlnDLsZHMJx/view?usp=sharing).**
